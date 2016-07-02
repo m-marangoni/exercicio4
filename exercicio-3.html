@@ -5,31 +5,24 @@
   <meta charset="UTF-8">
   <link href='https://fonts.googleapis.com/css?family=Asap:400italic,700,400' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
+ </head>
+ <body>
   <header>
-   <ul>
-    <li><a class="active" href="mar-do-caribe.html">Caribe</a></li>
-    <li><a href="exercicio-3.html">Ilhas Gregas</a></li>
-    <li class="dropdown">
-      <a href="#" class="dropbtn">Mais</a>
-      <div class="dropdown-content">
-        <a href="#">Viagens</a>
-        <a href="#">Dicas</a>
-        <a href="#">Saiba Mais</a>
-      </div>
-    </li>
+   <nav>
+   <ul class="main">
+    <li><a href="mar-do-caribe.html">Caribe</a></li>
+    <li><a href="exercicio-3.html">Ilhas Gregas</a>
+     <ul class="submenu">
+      <li><a href="#">Viagens</a></li>
+      <li><a href="#">Dicas</a></li>
+     </ul>
+      </li>
    </ul>
+ </nav>
   </header>
-  <section class="post-container">
-    <img src="imagens/imagem.jpg" alt="descrição" title="foto de praias"/>
-    <!--insira seu comentário -->
-    <div>
-     <figure>
-      <img src="imagens/praia.jpg"/>
-      <img src="imagens/praia2.jpg"/>
-      <img src="imagens/praia3.jpg"/>
-    </figure>
+  <article>
+    <img src="imagens/imagem.jpg" class="full" alt="descrição" title="foto de praias"/>
+    <section class="content">
      <h1> Desbravando as Ilhas Gregas</h1>
      <h2>Da série <b> volta ao mundo em 365 dias</b></h2>
      <h3>Bruna da Silva <i>10 de maio de 2016</i></h3>
@@ -53,7 +46,12 @@ Ut gravida, libero eu sodales dapibus, enim urna tempor nisi, ut bibendum risus 
 Nulla vehicula sapien massa, vel volutpat orci malesuada non. Vestibulum facilisis, massa vitae luctus iaculis, augue velit lacinia purus, sit amet tempor lacus quam eget mauris. Nam quis elementum nisl. Mauris dignissim aliquam fringilla. Nunc tristique nisl vestibulum commodo vehicula. Aenean sagittis lacinia sapien, convallis facilisis turpis consectetur sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 Sed sagittis arcu a dapibus efficitur. Praesent condimentum dui at ante tempor posuere. Vivamus varius, mauris vitae feugiat pretium, arcu est accumsan lectus, non vulputate dui odio quis odio. Aenean ut elit ut nibh ullamcorper facilisis. Suspendisse pretium imperdiet commodo. Curabitur et tempus velit. Nulla egestas tortor auctor, facilisis diam ac, viverra justo.</p>
-    </div>
-  </section>
+    </section>
+    <section class="ads">
+      <img src="imagens/praia.jpg"/>
+      <img src="imagens/praia2.jpg"/>
+      <img src="imagens/praia3.jpg"/>
+    </section>
+  </article>
  </body>
 </html>
