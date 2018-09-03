@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title> Oi, Reprograma! :D </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="mystyle.css" />
+    </head>
+
+  <body>
+   <h2> Quiz Reprograma </h2>
+   <p class="ascii">
+
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+▓▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▓▓
+▓▓░░░░░░░░░░░░░░░░░░░░░▒▒▒▒░░░▒▒▒▒░░░░░░▓▓
+▓▓░░░░░░░░░░░░░░░░░░░░▒▒▒▒▒▒░▒▒▒▒▒▒░░░░░▓▓
+▓▓░░░░░░░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░▓▓
+▓▓░░░░░░░░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒░░░░░░▓▓
+▓▓░░░░░░░░░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒░░░░░░░▓▓
+▓▓░░░░░░░░░░░░░░░░░░░░░░░░▒▒▒▒▒░░░░░░░░░▓▓
+▓▓░░░░░░░░░░░░░░░░░░░░░░░░░░▒░░░░░░░░░░░▓▓
+▓▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▓▓
+▓▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▒░▒▒▒░░░▓▓
+▓▓░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒░░▓▓
+▓▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▒▒▒▒▒░░░▓▓
+▓▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▒▒▒░░░░▓▓
+▓▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▒░░░░░▓▓
+▓▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒░░░░░░▓▓
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+_______▒__________▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+______▒_______________▒▒▒▒▒▒▒▒
+_____▒________________▒▒▒▒▒▒▒▒
+____▒___________▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+___▒
+__▒______▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+_▒______▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓
+▒▒▒▒___▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓
+▒▒▒▒__▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓
+▒▒▒__▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+▒▒
+</p>
+   <form name="desafio" >
+   <p>1. O que significa a sigla HTML?</p>
+   <input type="radio" id="q" name="resposta" > A. Hyperlinks and Text Markup Language <br>
+   <input type="radio" id="q1" name="resposta"  > B. Hyper Text Markup Language <br>
+   <input type="radio" id="q2" name="resposta"  > C. Home Tool Markup Language
+
+   <p>2. O que significa a sigla CSS?</p>
+   <input type="radio" id="m" name="resposta2" > A. Creative Style Sheets <br>
+   <input type="radio" id="m1" name="resposta2"  > B. Cascading Style Sheets <br>
+   <input type="radio" id="m2" name="resposta2"  > C. Colorful Style Sheets
+
+   <p>3. Dentro de qual elemento HTML nós colocamos o JavaScript?</p>
+   <input type="radio" id="p" name="resposta3" > A. script <br>
+   <input type="radio" id="p1" name="resposta3" > B. js <br>
+   <input type="radio" id="p2" name="resposta3"  > C. javascript  <br>
+   <input type="button" class="button" name="Submit" value="Ver Resultados" onclick="gradeIt()"/>
+   </form>
+   <p class="textoscore" id="score1"> </P>
+   <p class="textoscore" id="score2"> </P>
+   <p class="textoscore" id="score3"> </P>
+
+    <script type="text/javascript">
+
+    function gradeIt() {
+      var x = document.getElementById("q1").checked;
+      if (x == true){
+        document.getElementById("score1").innerHTML = "O seu total de pontos é: &#x2605";
+      }
+      else if (x == false){
+        document.getElementById("score1").innerHTML = "O seu total de pontos é: &#x2606";
+      }
+      var y =  document.getElementById("m1").checked;
+      if (y == true){
+        document.getElementById("score2").innerHTML = "&#x2605";
+      }
+      else if (y == false){
+        document.getElementById("score2").innerHTML = "&#x2606";
+      }
+      var z =  document.getElementById("p").checked;
+      if (z == true){
+        document.getElementById("score3").innerHTML = "&#x2605";
+      }
+      else if (z == false){
+        document.getElementById("score3").innerHTML = "&#x2606";
+      }
+      }
+
+    </script>
+
+  </body>
+
+</html>
